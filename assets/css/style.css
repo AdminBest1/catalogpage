@@ -1,0 +1,201 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333333;
+    font-style: normal;
+    font-weight: normal;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+hr {
+    display: block;
+    width: 100%;
+    height: 1px;
+    margin: 40px 0;
+    border: 0;
+    background-color: #e5e5e5;
+}
+a {
+    text-decoration: none;
+}
+
+/* Page */
+.page {
+    overflow: hidden;
+}
+
+
+/* Container */
+.container-max {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+/* Header */
+.header {
+    background: #116578;
+}
+.nav {
+    display: inline-block;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 27px;
+    letter-spacing: normal;
+    vertical-align: middle;
+    text-align: center;
+    align-items: center;
+    margin-top: 36px;
+    margin-bottom: 37px;
+}
+.nav__link {
+    color: #FFFFFF;
+    margin-right: 67px;
+}
+.elem{
+    font-size:24px;
+    line-height:26px;
+    color:#FFFFFF;
+    background:linear-gradient(currentColor, currentColor) 50% 100% no-repeat;
+    background-size:0 1px;
+    transition:background 250ms ease 0s;
+    text-decoration:none;
+}
+.elem:hover{
+    background-size:100% 1px;
+}
+
+
+a svg:hover #facebook,
+a svg:hover #instagram { 
+  fill: #111;
+}
+.call:hover{
+    background:#FFFFFF;
+    color: #116578;;
+}
+
+.nav__link:nth-last-child(1) {
+    margin-right: 0px;
+}
+.nav__link:nth-last-child(2) {
+    margin-right: 64px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    border: 2px solid #FFFFFF;
+    padding: 15px 15px 14px 14px;
+}
+.nav__link:nth-last-child(2) {
+    margin-right: 65px;
+}
+.nav__link:nth-last-child(7) {
+    margin-left: 375px;
+}
+.shopping-cart {
+    width: 30px;
+    height: 25px; 
+    background: url(../images/header/cart.jpg) no-repeat left center;
+}
+
+/*Catalog*/
+.catalog__title {
+    font-weight: 600;
+    text-align: center;
+    margin-top: 100px;
+}
+/*линии для тега h1*/
+   
+.catalog__title h1 {
+    position: relative;
+    display: inline-block;
+    margin: 0;
+    padding: 0 25px;
+    font-size: 40px;
+    line-height: 49px;
+    text-transform: uppercase;
+    position: relative;
+    z-index:2;
+    background: #fff;
+    
+}
+.catalog__title::after {
+    content: "";
+    display: block;
+    border-bottom: 2px solid #333333;;
+    position: relative;
+    bottom: 24px;
+    left:0;
+    z-index:1;
+}
+.wrapper {
+    display: flex;
+}
+.offer {
+    margin-left: 30px;
+}
+h2 {
+    margin-top: 209px;
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 41px;
+}
+/*footer*/
+.footer {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 27px;
+    background: #116578;
+    padding-bottom: 30px;
+}
+.footer a {
+    text-decoration: none;
+    color: #FFFFFF;
+    
+}
+.footer__inner {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.item-list_wrapper {
+    display: flex;
+    vertical-align: middle;
+
+    margin-top: 56px;
+}
+.footer__item {
+    margin-bottom: 35px;
+}
+.contacts {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 150%;
+    margin-bottom: 30px;
+}
+.connection {
+    margin-bottom: 39px;
+}
+.credits {
+    text-align: center;
+    font-size: 14px;
+    line-height: 17px;
+    margin-top: 60px;
+    color: #FFFFFF;
+}
+
